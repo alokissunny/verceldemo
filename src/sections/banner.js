@@ -12,7 +12,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Get guidance from industry experts and veterans !"
+            title="Get Guidance From Industry Experts And Veterans"
             description="Tune in for updates and newsletters"
           />
           <Box as="figure" sx={styles.illustration}>
