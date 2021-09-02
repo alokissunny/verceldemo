@@ -19,8 +19,8 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    name: 'Bill  Gates',
+    designation: 'Microsoft',
     socialLinks: [
       {
         name: 'twitter',
@@ -39,8 +39,8 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
+    name: 'Sheryl Sandberg',
+    designation: 'Facebook',
     socialLinks: [
       {
         name: 'twitter',
@@ -55,8 +55,8 @@ const data = [
   {
     id: 3,
     avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
+    name: 'Elon Musk',
+    designation: 'Tesla',
     socialLinks: [
       {
         name: 'twitter',
@@ -71,8 +71,8 @@ const data = [
   {
     id: 4,
     avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
+    name: 'Jeff Bezos',
+    designation: 'Microsoft',
     socialLinks: [
       {
         name: 'twitter',
@@ -221,8 +221,8 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Meet our superheros"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          title="Meet our veterans"
+          description="Book a one to one session with our experts ."
         />
       </Container>
       <Box

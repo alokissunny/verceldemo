@@ -20,13 +20,13 @@ export default function IndexPage() {
           description="Get guidance from industry experts and veterans !"
         />
         <Banner />
-        {/* <Services />
+        <Services />
         <Testimonials />
         <OurTeam />
         <OtherServices />
         <WhyUs />
         <Blog />
-        <SubscribeUs /> */}
+        <SubscribeUs />
       </Layout>
     </ThemeProvider>
   );
