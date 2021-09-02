@@ -23,7 +23,7 @@ export default function IndexPage() {
         <Services />
         <Testimonials />
         <OurTeam />
-        <OtherServices />
+        {/* <OtherServices /> */}
         <WhyUs />
         <Blog />
         <SubscribeUs />

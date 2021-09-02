@@ -8,6 +8,7 @@ export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
       <LogoSvg />
+      <span><b>UpLifted</b></span>
     </Link>
   );
 }
