@@ -12,7 +12,7 @@ import avatar2 from 'assets/images/team/member2.png';
 import avatar3 from 'assets/images/team/member3.png';
 import avatar4 from 'assets/images/team/member4.png';
 import arrowRight from 'assets/images/icons/arrow-right.png';
-import { getMentors } from 'services/mentorService';
+import { getMentors } from 'services/mentorservice';
 
 SwiperCore.use([Navigation, Pagination]);
 
