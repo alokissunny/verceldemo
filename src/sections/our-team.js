@@ -167,16 +167,14 @@ const OurTeam = () => {
   const swiperRef = useRef(null);
   const containerRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [mentors, setMentors] = useState([]);
+  const [mentors, setMentors] = useState(null);
   const [containerOffset, setContainerOffset] = useState({
     left: null,
     top: null,
   });
 
   const isEnd = swiperRef?.current?.swiper?.isEnd;
-  getMentors().then(res => {
-   setMentors(res);
-  })
+
   const handlePrev = () => {
     swiperRef?.current?.swiper?.slidePrev();
     setInterval(() => {
@@ -200,6 +198,13 @@ const OurTeam = () => {
       top: containerRef.current.offsetTop,
     });
   }, [containerRef]);
+
+  useEffect(() => {
+    getMentors().then(res => {
+      console.log(res);
+       setMentors(res);
+     })
+  })
 
   const breakpoints = {
     0: {
