@@ -12,20 +12,20 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Marketing & advertising',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Get assured facetime with experts',
+    description: `Uplift enables you to get assured facetime, one-on-one, with the experts where you can ask all your questions and get the right guidance. No more chasing them on social media, emails and public forums, without luck.`,
   },
   {
     id: 3,
     icon: icon2,
-    title: 'Ultimate development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Redefine networking with real conversation',
+    description: `Choose the expert you want to talk to, set your agenda beforehand and extract the maximum out of your conversation. Ask questions about building a skill, interview prep for a job, or showcase your work to get expert feedback and get noticed.`,
   },
   {
     id: 4,
     icon: icon3,
-    title: 'Business Enterprise',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Choose the UpLifter you want to get guidance from',
+    description: `You have full control to choose the experts you want to speak to. Browse through their profile, past experience and expertise and directly book a slot on their calendar. No intermediaries.`,
   },
 ];
 
@@ -35,8 +35,8 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="TODO What all products we offer "
-          description="TODO Description about product."
+          title="How can you use uplifted"
+          description="Our platform helps you get right career and skill guidance from authoritative industry and domain experts"
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

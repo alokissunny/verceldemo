@@ -230,8 +230,8 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Meet our veterans"
-          description="Book a one to one session with our experts ."
+          title="Meet our uplifters"
+          description="Book a one-on-one session with our experts ."
         />
       </Container>
       <Box

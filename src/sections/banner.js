@@ -12,12 +12,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Get Guidance From Industry Experts And Veterans"
-            description="Tune in for updates and newsletters"
+            title="Get professional guidance from established industry experts (UpLifters)"
+            description="Ask questions, showcase your work, be curious and get noticed"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Subscribe</Button>
+              <Button>Book a 1:1 with an uplifter</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
