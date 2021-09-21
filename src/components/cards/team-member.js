@@ -105,20 +105,8 @@ const TeamMember = ({ member }) => {
         containerClassName={contentStyles.container}
         dragOptions={isDraggable ? dragOptions : undefined}
       >
-        <div className={contentStyles.header}>
-          <span id={titleId}>Check Availablity</span>
-          <IconButton
-            styles={iconButtonStyles}
-            iconProps={cancelIcon}
-            ariaLabel="Close popup modal"
-            onClick={hideModal}
-          />
-        </div>
-        <div className={contentStyles.body}>
-          <div style={{ height: '360px' }}>
-                <Calender></Calender>
-    </div>
-        </div>
+       <div>Check Availablity</div> 
+       <Calender></Calender>
       </Modal>
     </div>
   );
@@ -133,6 +121,8 @@ const contentStyles = mergeStyleSets({
     display: 'flex',
     flexFlow: 'column nowrap',
     alignItems: 'stretch',
+    width:'100%',
+    height: '100%'
   },
   header: [
     // eslint-disable-next-line deprecation/deprecation
