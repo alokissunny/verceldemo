@@ -12,6 +12,7 @@ import SectionHeading from 'components/section-heading';
 
 
 export default function IndexPage() {
+  const type = ['Product Management', 'Product development', 'Startup Founders']
   const containerRef = useRef(null);
   const [containerOffset, setContainerOffset] = useState({
     left: null,
@@ -34,6 +35,14 @@ export default function IndexPage() {
         top: containerRef.current.offsetTop,
       });
     }, [containerRef]);
+    function getCat(){
+      return type.map(item => {
+        return <div>
+          <span>{item}</span> 
+          <OurTeam />
+        </div>
+      })
+    }
   return (
     <ThemeProvider theme={theme}>
       <Layout>
@@ -53,16 +62,17 @@ export default function IndexPage() {
         />
       </Container>
       </Box>
-      <div>Product management</div>
-        <OurTeam />
-        <div>Product development</div>
+      {getCat()}
+      {/* <div>Product management</div>
+        <OurTeam /> */}
+        {/* <div>Product development</div>
         <OurTeam />
         <div>Angel Investors</div>
         <OurTeam />
         <div>Big techs</div>
         <OurTeam />
-        <div>Entrepreneurs </div>
-        <OurTeam />
+        <div>Startup Founders</div>
+        <OurTeam /> */}
         {/* <OtherServices /> */}
         {/* <WhyUs />
         <Blog />

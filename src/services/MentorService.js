@@ -6,7 +6,7 @@ import  {mentors}  from "./data";
            let timeout =  setTimeout(() => {
                 resolve(mentors);
                 clearTimeout(timeout);
-            }, 5000);
+            }, 1000);
         });
         
         return res;
