@@ -192,12 +192,6 @@ const OurTeam = () => {
     clearInterval();
   };
 
-  useEffect(() => {
-    setContainerOffset({
-      left: containerRef.current.offsetLeft,
-      top: containerRef.current.offsetTop,
-    });
-  }, [containerRef]);
 
   useEffect(() => {
     getMentors().then(res => {
@@ -227,13 +221,6 @@ const OurTeam = () => {
 
   return (
     <Box as="section" id="team" sx={styles.section}>
-      <Container ref={containerRef}>
-        <SectionHeading
-          sx={styles.heading}
-          title="Meet our uplifters"
-          description="Book a one-on-one session with our experts ."
-        />
-      </Container>
       <Box
         sx={{
           ml: currentIndex === 0 ? containerOffset?.left : 0,
