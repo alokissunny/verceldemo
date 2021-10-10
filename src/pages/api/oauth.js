@@ -1,7 +1,7 @@
 import { getURLWithQueryParams } from "../../helpers/auth";
 const LINKEDIN_STATE = "codejam12" ; //process.env.LINKEDIN_STATE;
 const LINKEDIN_SCOPE = "r_liteprofile r_emailaddress"; //process.env.LINKEDIN_SCOPE;
-const LINKEDIN_REDIRECT = "http://localhost:3000/api/oauth" ;// process.env.LINKEDIN_REDIRECT;
+const LINKEDIN_REDIRECT = "https://uplifted.co.in/api/oauth" ;// process.env.LINKEDIN_REDIRECT;
 const LINKEDIN_CLIENT_ID = "773mrxqdipk4hf" ;//process.env.LINKEDIN_CLIENT_ID;
 const LINKEDIN_REDIRECT_CONNECT = "https://uplifted.co.in/api/oauth"
 const LINKEDIN_CLIENT_SECRET="bov98SOggiwb5rlB"
