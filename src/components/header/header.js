@@ -7,6 +7,8 @@ import { NavLink } from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import menuItems from './header.data';
+import Link from 'next/link'
+
 
 export default function Header() {
   return (
@@ -24,7 +26,10 @@ export default function Header() {
                         <NavLink path={path} label={label} />
                       </li>
                     ))}
-                  </Box>
+                 <Link href="/mentor-login">
+                <a>Mentor Login</a>
+              </Link>                  
+              </Box>
                 
                 </Box>
                
