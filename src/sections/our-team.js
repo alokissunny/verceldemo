@@ -163,7 +163,7 @@ const data = [
   },
 ];
 
-const OurTeam = () => {
+const OurTeam = (props) => {
   const swiperRef = useRef(null);
   const containerRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -194,8 +194,7 @@ const OurTeam = () => {
 
 
   useEffect(() => {
-    getMentors().then(res => {
-      console.log(res);
+    getMentors(props['type']).then(res => {
        setMentors(res);
      })
   })

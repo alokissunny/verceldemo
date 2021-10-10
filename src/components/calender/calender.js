@@ -9,18 +9,6 @@ export const Calender = (props ) => {
     const maxDate = useConst(addMonths(today, 2));
     const restrictedDates = useConst([addDays(today, -2), addDays(today, -8), addDays(today, 2), addDays(today, 8)]);
     return <div>
-      {/* <Calendar
-        showGoToToday
-        allFocusable = {false}
-        onSelectDate={setSelectedDate}
-        value={selectedDate}
-        minDate={minDate}
-        maxDate={maxDate}
-        restrictedDates={restrictedDates}
-        // Calendar uses English strings by default. For localized apps, you must override this prop.
-        strings={defaultCalendarStrings}
-      />
-       */}
              <InlineWidget url="https://calendly.com/bit-srivastava/alok1-1" />
 
       <div>

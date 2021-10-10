@@ -105,7 +105,6 @@ const TeamMember = ({ member }) => {
         containerClassName={contentStyles.container}
         dragOptions={isDraggable ? dragOptions : undefined}
       >
-       <div>Check Availablity</div> 
        <Calender></Calender>
       </Modal>
     </div>
@@ -121,8 +120,8 @@ const contentStyles = mergeStyleSets({
     display: 'flex',
     flexFlow: 'column nowrap',
     alignItems: 'stretch',
-    width:'100%',
-    height: '100%'
+    width:'80%',
+    height: '80%'
   },
   header: [
     // eslint-disable-next-line deprecation/deprecation

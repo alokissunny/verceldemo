@@ -37,9 +37,9 @@ export default function IndexPage() {
     }, [containerRef]);
     function getCat(){
       return type.map(item => {
-        return <div>
+        return <div key={item}>
           <span>{item}</span> 
-          <OurTeam />
+          <OurTeam type={item}/>
         </div>
       })
     }
